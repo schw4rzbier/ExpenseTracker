@@ -95,10 +95,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\ExpenseTrackerDB.mdf" />
-    <Content Include="App_Data\ExpenseTrackerDB_log.ldf">
-      <DependentUpon>ExpenseTrackerDB.mdf</DependentUpon>
-    </Content>
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="Web.config">
