@@ -1,6 +1,0 @@
-B:\Source\ExpenseTracker\ExpenseTracker.Constants\bin\Debug\ExpenseTracker.Constants.dll
-B:\Source\ExpenseTracker\ExpenseTracker.Constants\bin\Debug\ExpenseTracker.Constants.pdb
-B:\Source\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.csprojResolveAssemblyReference.cache
-B:\Source\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.csproj.CoreCompileInputs.cache
-B:\Source\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.dll
-B:\Source\ExpenseTracker\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.pdb

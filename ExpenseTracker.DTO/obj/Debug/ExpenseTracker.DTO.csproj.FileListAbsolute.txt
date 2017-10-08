@@ -1,6 +1,0 @@
-B:\Source\ExpenseTracker\ExpenseTracker.DTO\bin\Debug\ExpenseTracker.DTO.dll
-B:\Source\ExpenseTracker\ExpenseTracker.DTO\bin\Debug\ExpenseTracker.DTO.pdb
-B:\Source\ExpenseTracker\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.csprojResolveAssemblyReference.cache
-B:\Source\ExpenseTracker\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.csproj.CoreCompileInputs.cache
-B:\Source\ExpenseTracker\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.dll
-B:\Source\ExpenseTracker\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.pdb
