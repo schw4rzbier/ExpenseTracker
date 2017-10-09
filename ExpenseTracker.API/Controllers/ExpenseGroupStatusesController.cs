@@ -1,30 +1,30 @@
-﻿using ExpenseTracker.Repository;
-using ExpenseTracker.Repository.Factories;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 using System.Web.Http;
+using ExpenseTracker.Repository;
+using ExpenseTracker.Repository.Factories;
 
 namespace ExpenseTracker.API.Controllers
 {
-  //  [RoutePrefix("api/expensegroupstatusses")]
-    public class ExpenseGroupStatussesController : ApiController
+    public class ExpenseGroupStatusesController : ApiController
     {
         IExpenseTrackerRepository _repository;
         ExpenseMasterDataFactory _expenseMasterDataFactory = new ExpenseMasterDataFactory();
 
-        public ExpenseGroupStatussesController()
+        public ExpenseGroupStatusesController()
         {
             _repository = new ExpenseTrackerEFRepository(new Repository.Entities.ExpenseTrackerContext());
         }
 
-        public ExpenseGroupStatussesController(IExpenseTrackerRepository repository)
+        public ExpenseGroupStatusesController(IExpenseTrackerRepository repository)
         {
             _repository = repository;
         }
 
-         
+
         public IHttpActionResult Get()
         {
 
