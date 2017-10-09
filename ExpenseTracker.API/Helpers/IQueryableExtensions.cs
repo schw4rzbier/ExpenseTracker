@@ -12,7 +12,7 @@ namespace ExpenseTracker.API.Helpers
         {
             if (source == null)
             {
-                throw new ArgumentNullException("source");
+                throw new ArgumentNullException(nameof(source));
             }
 
             if (sort == null)
@@ -32,6 +32,7 @@ namespace ExpenseTracker.API.Helpers
 
                 if (sortOption.StartsWith("-"))
                 {
+                    //TODO: sort expression concatenation is bugged, missing commas sometimes.
                     completeSortExpression = completeSortExpression + sortOption.Remove(0, 1) + " descending";
                 }
                 else
